@@ -1,9 +1,13 @@
-# Fabric Example Mod
+# DamageSelf
 
-## Setup
+自分自身へダメージを与えることが出来るコマンドを追加するminecraftのmodです。<br/>
+詰んでしまったときなどに使えると思います。<br/>
+クライアントmodなので任意のサーバーで使えますが、アンチチートプラグイン等によってキックされたり無効化されている事があります。<br/>
+あくまでそのサーバーのルールに従って使用してください。悪用は推奨しません。banされても知りませんよ。自己責任です。
 
-For setup instructions please see the [fabric documentation page](https://docs.fabricmc.net/develop/getting-started/setting-up-a-development-environment) that relates to the IDE that you are using.
+## 使用方法
+`/damageself <ダメージ量>`
+ダメージ量は1~7で指定出来ます。7では3.5ハート分のダメージを与えます。
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## クレジット
+- <a href="https://github.com/MeteorDevelopment/meteor-client">MeteorClient</a> このModはMeteorClientのdamageコマンドのみを抜き出した物になっています。
