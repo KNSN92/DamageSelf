@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/KNSN92/DamageSelf",
 		"sources": "https://github.com/KNSN92/DamageSelf"
 	},
-	"license": "MIT License",
+	"license": "GPLv3 License",
 	"icon": "assets/damage_self/icon.png",
 	"environment": "client",
 	"entrypoints": {
